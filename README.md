@@ -86,7 +86,7 @@ Folgende Werte sollten angepasst werden:
 
 * Die Reply Adresse,
 * Die Amazon Schlüssel,
-* set_include_path: Hier sollte der relative Pfaad zu der Amazon Bibliothek gesetzt werden.
+* set_include_path: Hier sollte der relative Pfad zu der Amazon Bibliothek gesetzt werden.
 
 ```php
 /* Reply Address */
