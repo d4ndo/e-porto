@@ -12,7 +12,7 @@
  * Copyright 2014 Daniel Dörrhöfer. All Rights Reserved.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * Derived from "The Marketplace Web Service Orders PHP Library (Amazon Technologies, Inc.) 
- * has been modified.
+ * Derived from Sample ListOrdersSample.php.
  */
 
 require_once('.config.inc.php');
