@@ -13,7 +13,7 @@ Die Installation kann einige Zeit in Anspruch nehmen.
 
 Als erstes muss ein MWS account bei Amazon angelegt werden, der den Zugriff auf das "amazon seller central" gewährt.
 
-https://developer.amazonservices.com/
+https://developer.amazonservices.de/
 
 Man erhält folgende Zugangsschlüssel:
 
