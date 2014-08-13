@@ -26,17 +26,19 @@ Man sollte sich diese Schlüssel zur Sicherheit einmal ausdrucken!
 
 Als nächstes sollte PHP, curl und die Amazon lib installiert werden:
 
-Windows:
---------
+#Windows:
 
-* PHP installieren
-* libcurl installieren
+e-porto benötigt die Amazon Client Library - PHP - Version für Orders:
 
-Installieren der Amazon Client Library - PHP - Version für Orders.
-https://developer.amazonservices.com/doc/orders/orders/v20130901/php.html/182-8535534-3394018
+https://developer.amazonservices.com/doc/orders/orders/v20130901/php.html/189-6264670-1326325
 
-Linux:
-------
+Diese Biblitothek benötigt:
+
+* PHP > 5.2.8 http://windows.php.net/download/
+* cURL > 7.18.0
+
+
+#Linux:
 
 ```bash
 apt-get install php5-cli
