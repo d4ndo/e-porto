@@ -83,7 +83,7 @@ Folgende Werte sollten angepasst werden:
 * Die Amazon Schlüssel,
 * set_include_path: Hier sollte der relative Pfaad zu der Amazon Bibliothek gesetzt werden.
 
-```bash
+```php
 /* Reply Address */
 define('COMPANY', 'Meine Firma');
 define('STREET', 'Musterstr.');
@@ -97,6 +97,9 @@ define('AWS_ACCESS_KEY_ID', 'MY_AWS_ACCESS_KEY_ID');
 define('AWS_SECRET_ACCESS_KEY', 'MY_AWS_SECRET_ACCESS_KEY');
 define ('MERCHANT_ID', 'MY_MERCHANT_ID');
 define ('MARKETPLACE_ID', 'MY_MARKETPLACE_ID');
+
+/* Filename of csv file */
+define('FILENAME', 'e-porto.csv');
 
 /* Max time to go back in time . Orders older then MAX wont be considered  */
 define('MAX', 96);
