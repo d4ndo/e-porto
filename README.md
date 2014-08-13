@@ -63,6 +63,11 @@ Die Zertifikate für curl gibt es hier:
 
 http://curl.haxx.se/docs/caextract.html
 
+Damit php gefunden wird, sollte noch die Umgebungsvariable(PATH) gesetzt werden:
+In unserem Beispiel `C:\php\`.
+
+http://lmgtfy.com/?q=PATH+setzen
+
 #Linux:
 
 ```bash
@@ -73,7 +78,7 @@ apt-get install php5-curl
 Installieren der Amazon Client Library - PHP - Version für Orders.
 https://developer.amazonservices.com/doc/orders/orders/v20130901/php.html/182-8535534-3394018
 
-#Konfiguration:
+#Konfiguration von e-porto:
 
 Editieren der `config.inc.php`:
 
