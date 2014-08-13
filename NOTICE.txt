@@ -1,0 +1,8 @@
+Marketplace Web Service Orders PHP Library
+Copyright 2014 Amazon Technologies, Inc
+e-porto
+Copyright 2014 Daniel Dörrhöfer
+
+This product includes software developed by
+Amazon Technologies, Inc (http://www.amazon.com/).
+Daniel Dörrhöfer, (http://www.d4ndo.com).
