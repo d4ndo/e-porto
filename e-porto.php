@@ -1,5 +1,5 @@
 <?php
-/*******************************************************************************
+/*
  * Copyright 2009-2014 Amazon Services. All Rights Reserved.
  * Licensed under the Apache License, Version 2.0 (the "License");
  *
@@ -8,12 +8,11 @@
  * This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
  * CONDITIONS OF ANY KIND, either express or implied. See the License for the
  * specific language governing permissions and limitations under the License.
- *******************************************************************************
- * PHP Version 5
- * @category Amazon
- * @package  e-porto
- * @version  2013-09-01
- * Library Version: 2013-09-01
+ * 
+ * Copyright 2014 Daniel Dörrhöfer. All Rights Reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * Derived from "The Marketplace Web Service Orders PHP Library (Amazon Technologies, Inc.) 
+ * has been modified.
  */
 
 require_once('.config.inc.php');
@@ -23,7 +22,7 @@ require_once('.config.inc.php');
  *
  * AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY constants
  * are defined in the .config.inc.php located in the same
- * directory as this sample
+ * directory.
  */
 $config = array (
     'ServiceURL' => $serviceUrl,
@@ -97,18 +96,18 @@ function invokeListOrders(MarketplaceWebServiceOrders_Interface $service, $reque
 	    $stadt = $adr->getCity();
 	    $land = $adr->getCountryCode();
 
-	    fwrite($fp,iconv("UTF-8", "Windows-1252", $name));
+	    fwrite($fp,iconv("UTF-8", ENCODEING, $name));
 	    fwrite($fp,";");
-	    fwrite($fp,iconv("UTF-8", "Windows-1252", $zusatz));
+	    fwrite($fp,iconv("UTF-8", ENCODEING, $zusatz));
 	    fwrite($fp,";");
-	    fwrite($fp,iconv("UTF-8", "Windows-1252", $strasse));
+	    fwrite($fp,iconv("UTF-8", ENCODEING, $strasse));
 	    fwrite($fp,";");
 	    fwrite($fp,";");
-	    fwrite($fp,iconv("UTF-8", "Windows-1252", $plz));
+	    fwrite($fp,iconv("UTF-8", ENCODEING, $plz));
 	    fwrite($fp,";");
-	    fwrite($fp,iconv("UTF-8", "Windows-1252", $stadt));
+	    fwrite($fp,iconv("UTF-8", ENCODEING, $stadt));
 	    fwrite($fp,";");
-	    fwrite($fp,iconv("UTF-8", "Windows-1252", $land));
+	    fwrite($fp,iconv("UTF-8", ENCODEING, $land));
 	    fwrite($fp,";");
 	    fwrite($fp,"HOUSE");
 	    fwrite($fp,"\r\n");
